@@ -1,2 +1,2 @@
-# configs
-Repo to store personal configs
+# Configs
+Where I store all my configuration files.
