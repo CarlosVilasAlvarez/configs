@@ -1,0 +1,9 @@
+[includeIf "gitdir:MY_PROJECTS/"]
+path=.gitconfig-personal
+[includeIf "gitdir:WORK/"]
+path=.gitconfig-work
+
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff  "
